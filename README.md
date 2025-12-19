@@ -135,8 +135,3 @@ blog_app/
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-- Built following Flask tutorials and best practices
-- Bootstrap for responsive design
-- Flask ecosystem for robust web development
