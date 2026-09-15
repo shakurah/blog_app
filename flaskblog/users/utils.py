@@ -31,7 +31,7 @@ def send_reset_email(user):
            {url_for('users.reset_token', token=token, _external = True )}            
             If you did not make this request then simply ignore this email) '''
     
-    with yagmail.SMTP('shakurahack17@gmail.com', app_passwd) as yag:
+    with yagmail.SMTP(email, app_passwd) as yag:
         yag.send(to=user.email, subject ='Passowrd Reset Request', contents=msg)
 
 
