@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import render_template, url_for, flash, redirect, request, Blueprint
 from flask_login import login_user, login_required, current_user, logout_user
 from flaskblog.models import User, Post
