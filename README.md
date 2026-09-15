@@ -58,6 +58,10 @@ A full-featured Flask-based blogging platform designed for sharing controversial
    python -c "from flaskblog import create_app; app = create_app(); app.app_context().push(); from flaskblog import db; db.create_all()"
    ```
 
+## 🔗 Live Demo
+
+Check it out here: [shakzy.pythonanywhere.com](https://shakzy.pythonanywhere.com/)
+
 ## Usage
 
 ### Development
